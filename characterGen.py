@@ -1,5 +1,5 @@
+#Made by Kraftytek
 import random
-
 
 #roll functions 
 
@@ -14,11 +14,8 @@ def roll_D6():
 def complete_stat():        
         
         stat_roll = [roll_D6(), roll_D6(), roll_D6(), roll_D6()]
-
         allRoll = sum(stat_roll)
-
         lowest = min(stat_roll)
-
         total = int(allRoll) - int(lowest)
         return total
         
@@ -51,7 +48,6 @@ raceRoll = random.randint(0, len(raceList) - 1)
 classRoll = random.randint(0, len(charClass) - 1)
 quirkRoll = random.randint(0, len(charQuirk) - 1)
 featRoll = random.randint(0, len(feats) - 1)
-
 fname = fnameList[fnameRoll]
 lname = lnameList[lnameRoll]
 cClass = charClass[classRoll]
