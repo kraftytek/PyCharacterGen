@@ -26,7 +26,7 @@ fnameList = ["Terry", "Phil", "Nick", "Tyson", "Jenny", "Barry", "Ebbers", "Mark
              "Flint", "Frank", "Craig"]
              
 lnameList = ["Uppermuffin", "Hardlove", "Buttermaker", "Fingerlicking", "Rubberboot", "Hardchair", "Shoebreaker",
-             "Feelgood", "Hooter", "Prunt", "Sizzlecock", "Jewtastic", "Duh", "Nood"]
+             "Feelgood", "Hooter", "Prunt", "Sizzlecock", "Strumpletin", "Duh", "Nood"]
              
 raceList = ["Elf", "Human", "Dwarf", "Drow", "Gnome", "Orc", "Half elf", "Half Orc"]
 
