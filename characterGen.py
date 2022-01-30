@@ -65,7 +65,8 @@ exp = 0
 
 #build and print string of generated character
 
-print("  \nLevel = " + str(level)
+def char_gen():
+    print("  \nLevel = " + str(level)
       + "\nName = " + fname + " " + lname
       + "\nClass = " + cClass 
       + "\nQuirk = " + cQuirk
@@ -79,3 +80,5 @@ print("  \nLevel = " + str(level)
       + "\nWisdom = " + str(wisdom)
       + "\nluck = " + str(luck)
       )
+
+char_gen()
